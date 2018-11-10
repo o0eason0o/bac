@@ -1,0 +1,23 @@
+{
+  "name": "bac",
+  "version": "1.0.0",
+  "description": "bac app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o0eason0o/bac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o0eason0o/bac/issues"
+  },
+  "homepage": "https://github.com/o0eason0o/bac#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "twilio": "^3.23.2"
+  }
+}
