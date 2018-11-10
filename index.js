@@ -1,10 +1,18 @@
 var express = require('express'),
-    app = express();
+    app = express(),
+    path = require('path');
 
-    app.get('/', function (req, res) {
-    	res.send('hello world!');
-    });
+app.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/index.html'));
+  //__dirname : It will resolve to your project folder.
+});
 
-    app.listen(3000, function () {
-    	console.log('listening on port 3000');
-    });
+app.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname+'/about.html'));
+});
+
+app.get('/sitemap',function(req,res){
+  res.sendFile(path.join(__dirname+'/sitemap.html'));
+});
+
+app.listen(3000);

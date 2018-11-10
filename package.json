@@ -18,6 +18,8 @@
   "homepage": "https://github.com/o0eason0o/bac#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
     "twilio": "^3.23.2"
   }
 }
