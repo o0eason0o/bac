@@ -4,6 +4,8 @@ import './index.css';
 import Map from './map';
 import Connections from './connections';
 
+import { Button } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Square extends React.Component {
   render() {
@@ -69,8 +71,10 @@ class TwinBox extends React.Component {
 
       <Connections />
 
-      <div style={{height: 400, color: '#666666', backgroundColor: '#ffffff'}}>YESS</div>
-      <div style={{color: '#666666', backgroundColor: '#1b134a'}}>YESS</div>
+      <div style={{height: '80vh', color: '#666666', backgroundColor: '#ffffff'}}></div>
+      <div style={{color: '#ffffff', backgroundColor: '#1b134a', textAlign: 'center', padding: '5px'}}>
+        <a style={{fontSize: '0.6em'}}>&reg;2018 Good Vibes Tech, LLC</a>
+      </div>
 
     </div>
 

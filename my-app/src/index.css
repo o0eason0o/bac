@@ -7,16 +7,35 @@ ol, ul {
   padding-left: 30px;
 }
 
-.box-one {
-  color: '#666666';
-  background-color: 'blue';
+.map-style {
+  width: 50%;
+  margin-right: 20px;
 }
 
+.cool-image {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.map-title {
+  font-size: 1.5em;
+  padding: 75px 0px;
+}
+
+.map-text {
+  font-size: 0.8em;
+  color: white;
+}
 
 .board-row:after {
   clear: both;
   content: "";
   display: table;
+}
+
+.connections-title {
+  font-size: 1.5em;
+  padding: 0px 0px;
 }
 
 .status {
