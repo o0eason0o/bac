@@ -27,6 +27,11 @@ ol, ul {
   color: white;
 }
 
+.title-text {
+  font-size: 0.8em;
+  color: black;
+}
+
 .board-row:after {
   clear: both;
   content: "";

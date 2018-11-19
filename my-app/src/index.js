@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import TitlePage from './titlePage';
 import Map from './map';
 import Connections from './connections';
 
@@ -64,13 +65,9 @@ class TwinBox extends React.Component {
   render(){
     return (
     <div>
-      <div style={{height: 36, color: '#666666', backgroundImage: 'url(${./assets/background.png})'}}>YESS</div>
-      <div style={{height: 400, color: '#666666', backgroundColor: '#f6f6f6'}}>YESS</div>
-
+      <TitlePage />
       <Map />
-
       <Connections />
-
       <div style={{height: '80vh', color: '#666666', backgroundColor: '#ffffff'}}></div>
       <div style={{color: '#ffffff', backgroundColor: '#1b134a', textAlign: 'center', padding: '5px'}}>
         <a style={{fontSize: '0.6em'}}>&reg;2018 Good Vibes Tech, LLC</a>
